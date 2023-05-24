@@ -1,0 +1,62 @@
+:root {
+	--white-color: #fff;
+	--black-color: #000;
+	--text-color: #464646;
+	--border-color: #dbdbdb;
+	--primary-color: #3E64FF;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+html {
+	font-size: 62.5%;
+	line-height: 1.6rem;
+	font-family: "Karla", Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.grid{
+    width: calc(100% - 204px);
+    margin: 0 auto;
+}
+
+.split-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 50%;
+}
+.split-2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 50%;
+}
+
+@keyframes showUnderline {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes closeUnderline {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(0);
+	}
+}
