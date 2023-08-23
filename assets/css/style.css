@@ -313,13 +313,16 @@ main {
 	margin-bottom: 16px;
 }
 
-.link > a {
+.link > * {
 	font-size: 1.6rem !important;
+	color: #555;
+}
+.link > a {
 	text-decoration: underline;
 }
 
 .link > a:hover {
-	color: var(--primary-color);
+	color: blue;
 }
 
 /* Skills */
